@@ -29,19 +29,24 @@ const Donations = () => {
 
               <div className="prose prose-lg max-w-none text-foreground">
                 <p className="text-lg leading-relaxed mb-6">
-                  L'éducation est la clé de l'avenir. Elle permet à chaque enfant de réaliser son potentiel. Elle favorise la compréhension, la tolérance et la paix. Elle ouvre des portes, crée des opportunités et transforme des vies.
+                  L'éducation est la clé de l'avenir. Elle permet à chaque enfant de développer pleinement son potentiel. Elle encourage la compréhension, la tolérance et la paix. Elle ouvre des portes, crée des opportunités, et transforme des vies.
                 </p>
                 
                 <p className="text-lg leading-relaxed mb-6">
-                  Maria Montessori a entamé son travail dans les quartiers défavorisés de Rome et tous pouvaient avoir accès à cette pédagogie. Aujourd'hui, la réalité en est tout autre et nous sommes peinés de ne pas pouvoir rendre cette pédagogie accessible à tous. Malheureusement, l'école ne reçoit aucun financement et nous devons financer grâce à la participation financière des parents. Incontestablement, les ressources financières sont insuffisantes. De nombreux enfants n'ont pas accès à une éducation de qualité et ensemble nous pouvons changer cela pour assurer la durabilité de l'école et en faire profiter des enfants de tous milieux.
+                  Maria Montessori a commencé son travail dans les quartiers populaires de Rome, avec la volonté de rendre cette pédagogie accessible à tous. Aujourd'hui, malheureusement, la réalité est bien différente. Le Ludus ne reçoit aucun financement public, et son fonctionnement repose uniquement sur les participations financières des familles. Ces ressources, bien qu'essentielles, restent limitées.
                 </p>
 
                 <p className="text-lg leading-relaxed mb-6">
-                  Si pour vous, l'éducation est une priorité et que vous pensez que la pédagogie Montessori pourrait être une solution aux enjeux importants de l'éducation, vous pouvez apporter votre soutien à Grandissois!, que vous soyez un particulier, vous représentez une association, une entreprise ou que vous soyez un particulier. Nous accueillons évidemment toutes formes de soutien. Si votre soutien est financier alors vous pouvez remplir l'encart ci-dessous et choisir la somme que vous souhaitez verser.
+                  De nombreux enfants n'ont pas encore accès à une éducation respectueuse de leur rythme et de leurs besoins. Ensemble, nous pouvons changer cela, et permettre au Ludus de continuer à accueillir des enfants de tous milieux dans un environnement bienveillant et stimulant.
+                </p>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  Si, comme nous, vous pensez que l'éducation est une priorité, et que la pédagogie Montessori peut être une réponse aux enjeux de demain, vous pouvez nous soutenir !
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Soyez libre de nous contacter !
+                  Nous accueillons avec gratitude toutes formes de soutien.
+                  Et si vous souhaitez faire un don financier, vous pouvez nous faire un virement en choisissant librement le montant de votre contribution.
                 </p>
               </div>
             </CardContent>

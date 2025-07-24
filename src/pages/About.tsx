@@ -79,16 +79,62 @@ const About = () => {
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 La pédagogie Montessori
               </h3>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  Développée par Maria Montessori, cette approche éducative place l'enfant au centre de son apprentissage.
-                </p>
-                <p>
-                  Elle favorise l'autonomie, la confiance en soi et le respect du rythme naturel de développement de chaque enfant.
-                </p>
-                <p>
-                  Le matériel pédagogique spécialement conçu permet une exploration sensorielle et une découverte progressive des concepts fondamentaux.
-                </p>
+              <div className="space-y-6 text-muted-foreground">
+                <div>
+                  <h4 className="text-lg font-semibold text-foreground mb-3">👩‍🏫 Qui était Maria Montessori ?</h4>
+                  <div className="space-y-3 text-sm">
+                    <p>
+                      Maria Montessori (1870 – 1952) était une médecin et pédagogue italienne, pionnière de l'éducation moderne. Elle fut l'une des premières femmes médecins en Italie.
+                    </p>
+                    <p>
+                      Très tôt, elle s'intéresse au développement des enfants, en particulier ceux en difficulté, et élabore une méthode pédagogique centrée sur l'observation, l'autonomie et le respect du rythme de chaque enfant. En 1907, elle fonde sa première "Casa dei Bambini" (Maison des Enfants) dans un quartier populaire de Rome. C'est là que commence véritablement l'aventure Montessori.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-foreground mb-3">🌱 Les grands principes de la pédagogie Montessori</h4>
+                  <p className="text-sm mb-4">La méthode repose sur plusieurs fondamentaux :</p>
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <strong className="text-foreground">1. L'autonomie</strong><br />
+                      L'enfant est naturellement curieux. On lui donne les outils pour explorer, choisir, faire seul. On l'invite à être acteur de ses apprentissages, pas seulement récepteur.
+                    </div>
+                    <div>
+                      <strong className="text-foreground">2. Le respect du rythme de l'enfant</strong><br />
+                      Chaque enfant apprend à son propre rythme. Il n'y a pas de pression ni de comparaison avec les autres. L'éducateur observe et accompagne.
+                    </div>
+                    <div>
+                      <strong className="text-foreground">3. L'environnement préparé</strong><br />
+                      L'espace est soigneusement organisé, beau, simple et adapté à la taille de l'enfant. Tout le matériel est accessible et encourage l'indépendance.
+                    </div>
+                    <div>
+                      <strong className="text-foreground">4. Le matériel sensoriel</strong><br />
+                      Maria Montessori a conçu du matériel spécifique pour que les enfants puissent apprendre par la manipulation et l'expérimentation : perles pour les mathématiques, lettres rugueuses, cylindres de tailles variées, etc.
+                    </div>
+                    <div>
+                      <strong className="text-foreground">5. La liberté encadrée</strong><br />
+                      Les enfants choisissent librement leurs activités, dans un cadre clair. Cette liberté favorise la concentration, la motivation et l'auto-discipline.
+                    </div>
+                    <div>
+                      <strong className="text-foreground">6. Le rôle de l'éducateur</strong><br />
+                      L'éducateur/trice est un guide, pas un "professeur". Il/elle observe, soutient, encourage mais n'impose pas. Il/elle prépare l'environnement et intervient avec douceur.
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-semibold text-foreground mb-3">🧠 Ce que développe la pédagogie Montessori</h4>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <div>• Confiance en soi</div>
+                    <div>• Concentration</div>
+                    <div>• Sens des responsabilités</div>
+                    <div>• Respect des autres et de l'environnement</div>
+                    <div>• Pensée logique et esprit critique</div>
+                    <div>• Créativité</div>
+                    <div>• Autonomie</div>
+                  </div>
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -100,13 +146,6 @@ const About = () => {
                 Nos sections
               </h3>
               <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-foreground">Crèche (0-3 ans)</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Un environnement sécurisé pour les premiers apprentissages sensoriels.
-                  </p>
-                </div>
-                <Separator />
                 <div>
                   <h4 className="font-semibold text-foreground">Maternelle (3-6 ans)</h4>
                   <p className="text-sm text-muted-foreground">
