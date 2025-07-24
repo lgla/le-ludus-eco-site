@@ -43,14 +43,25 @@ All colors MUST be HSL.
     --sage-green: 85 25% 75%;
     --wood-brown: 30 35% 70%;
     --soft-cream: 45 25% 95%;
+    --forest-green: 120 25% 35%;
+    --terracotta: 15 45% 65%;
+    --lavender-mist: 260 20% 85%;
+    --golden-sand: 45 50% 80%;
+    --sunset-orange: 25 60% 70%;
+    --nature-mint: 150 35% 70%;
+    --earthy-clay: 20 40% 60%;
     
     /* Gradients naturels */
     --gradient-hero: linear-gradient(135deg, hsl(var(--warm-beige)), hsl(var(--soft-cream)));
     --gradient-nature: linear-gradient(120deg, hsl(var(--sage-green)), hsl(var(--olive-green)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--sunset-orange)), hsl(var(--golden-sand)));
+    --gradient-forest: linear-gradient(120deg, hsl(var(--forest-green)), hsl(var(--nature-mint)));
+    --gradient-earth: linear-gradient(135deg, hsl(var(--terracotta)), hsl(var(--earthy-clay)));
     
     /* Ombres douces */
     --shadow-soft: 0 4px 20px hsl(var(--olive-green) / 0.1);
     --shadow-warm: 0 8px 30px hsl(var(--wood-brown) / 0.15);
+    --shadow-colorful: 0 6px 25px hsl(var(--terracotta) / 0.12);
 
     --radius: 0.5rem;
 

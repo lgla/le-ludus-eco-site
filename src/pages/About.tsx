@@ -166,7 +166,7 @@ const About = () => {
 
         {/* Lien vers Schola Nova */}
         <div className="max-w-4xl mx-auto mt-16">
-          <Card className="bg-sage-green/10">
+          <Card className="bg-gradient-to-r from-lavender-mist/30 to-nature-mint/20 border-forest-green/20">
             <CardContent className="p-8 text-center">
               <h3 className="text-xl font-semibold text-foreground mb-4">
                 La suite logique : Schola Nova

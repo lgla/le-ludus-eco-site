@@ -18,7 +18,7 @@ const Donations = () => {
 
         {/* Message principal */}
         <div className="max-w-4xl mx-auto mb-16">
-          <Card className="bg-gradient-to-r from-sage-green/10 to-warm-beige/20">
+          <Card className="bg-gradient-to-r from-sunset-orange/20 to-golden-sand/30 border-terracotta/30">
             <CardContent className="p-8 md:p-12">
               <div className="text-center mb-8">
                 <Heart className="mx-auto h-12 w-12 text-primary mb-4" />
@@ -63,7 +63,7 @@ const Donations = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="bg-sage-green/10 p-6 rounded-lg">
+              <div className="bg-nature-mint/20 p-6 rounded-lg border border-forest-green/20">
                 <h3 className="text-lg font-semibold text-foreground mb-4">Virement bancaire</h3>
                 <div className="space-y-3">
                   <div>
@@ -86,7 +86,7 @@ const Donations = () => {
               </div>
 
               <div className="text-center">
-                <Button size="lg" className="w-full">
+                <Button size="lg" className="w-full bg-gradient-to-r from-terracotta to-sunset-orange hover:from-sunset-orange hover:to-terracotta border-0 shadow-colorful">
                   <Heart className="mr-2 h-5 w-5" />
                   Faire un don maintenant
                 </Button>
@@ -156,7 +156,7 @@ const Donations = () => {
                 </div>
               </div>
 
-              <div className="bg-warm-beige/30 p-4 rounded-lg">
+              <div className="bg-lavender-mist/40 p-4 rounded-lg border border-forest-green/20">
                 <p className="text-sm text-muted-foreground text-center">
                   <strong>Chaque contribution compte !</strong><br />
                   Quel que soit le montant, votre soutien fait la différence 
@@ -208,7 +208,7 @@ const Donations = () => {
 
         {/* Remerciements */}
         <div className="max-w-2xl mx-auto mt-12 text-center">
-          <Card className="bg-primary/5">
+          <Card className="bg-gradient-to-r from-nature-mint/30 to-sage-green/20 border-forest-green/30">
             <CardContent className="p-8">
               <Heart className="mx-auto h-8 w-8 text-primary mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-4">

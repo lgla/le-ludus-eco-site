@@ -57,6 +57,13 @@ export default {
 				'sage-green': 'hsl(var(--sage-green))',
 				'wood-brown': 'hsl(var(--wood-brown))',
 				'soft-cream': 'hsl(var(--soft-cream))',
+				'forest-green': 'hsl(var(--forest-green))',
+				'terracotta': 'hsl(var(--terracotta))',
+				'lavender-mist': 'hsl(var(--lavender-mist))',
+				'golden-sand': 'hsl(var(--golden-sand))',
+				'sunset-orange': 'hsl(var(--sunset-orange))',
+				'nature-mint': 'hsl(var(--nature-mint))',
+				'earthy-clay': 'hsl(var(--earthy-clay))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
